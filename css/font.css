@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "antroVectra";
+    src: url("../fonts/antro_vectra/Antro_Vectra.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "aqua";
+    src: url("../fonts/aqua/aqua.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "bank";
+    src: url("../fonts/bank/BankGothicMediumBT.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "eraslightitc";
+    src: url("../fonts/eraslightitc/eraslightitc.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }

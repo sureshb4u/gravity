@@ -1,0 +1,80 @@
+@import url("font.css");
+
+.videoContainer{
+    width: 100%;
+    text-align: center;
+}
+.titleText{
+    color: #fff;
+    font-size: 10em;
+    text-transform: capitalize;
+    font-family: "antroVectra";
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+.titleText h3{
+    font-family: "bank";
+    text-transform: capitalize;
+    color: #000;
+}
+.videoContainer video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.caps{text-transform: uppercase;}
+.mt80{margin-top: 80px;}
+.p20{padding: 20px;}.p40{padding: 40px;}
+.titleText i{font-size: 40px;color: #000;top:-80px;position: relative;cursor: pointer;}
+.bank{
+    font-family: "bank";    
+}
+.headerContainer .bank{font-size: 26px;text-transform: uppercase;color: #000;font-weight: bold;}
+.subHeader{text-align: right;font-size: 18px;font-family: "aqua";font-weight: bold}
+.content{padding: 20px 140px; font-family: "eraslightitc";font-size: 16px;font-weight: bold}
+#galleryCarousel .carouselContainer{height: 500px;margin-bottom: 20px;}
+#galleryCarousel .carousel-item img{
+    width: auto !important;
+    height: auto;
+    max-width: 100%;
+    max-height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#teamCarousel .carousel-item img , .memberContainer .imgContainer img{
+    border-radius: 50%;
+    max-height: 200px;
+    margin: 0 auto;
+}
+.center{text-align: center;}
+.carousel .carousel-indicators li{background-color: #343434;}
+.imgConatiner{width: 200px;margin: 0 auto;}
+.nameConainer, .memberContainer{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "bank";
+    text-transform: capitalize;
+    margin: 8px 0;
+    text-align: center
+}
+.teamDesc{margin: 12px 0;font-size: 16px;font-weight: bold;font-family: "eraslightitc";}
+.nameConainer span, .memberContainer div{
+    font-size: 14px;
+    font-weight: normal; 
+    white-space: nowrap ;
+    display: block;
+    text-transform: none;
+    font-family: monospace;
+}
+#teamCarousel .carousel-indicators{top:100%;}
+.gravityContent{font-family: "eraslightitc";padding: 0 140px;font-size: 16px;font-weight: bold;}
+.memberContainer .imgContainer {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    font-family: "bank";
+}
+.memberContainer .imgContainer img{max-height: 100px;}
+.memberContainer{margin: 16px 0;}

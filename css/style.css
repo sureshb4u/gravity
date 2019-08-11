@@ -5,18 +5,21 @@
     text-align: center;
 }
 .titleText{
-    color: #fff;
+    color: #000;
     font-size: 10em;
     text-transform: capitalize;
     font-family: "antroVectra";
     position: absolute;
     left: 36%;
+    text-shadow: 1px 1px #282828;
     top: 30%;
 }
 .titleText h3{
     font-family: "bank";
     text-transform: lowercase;
     color: #000;
+    opacity: 0.5;
+    text-shadow: none;
 }
 .videoContainer video{
     position: relative;
@@ -161,3 +164,4 @@
 .LogoContainer a{color: #000;}
 #team .fa-chevron-down{color: #35ce35;}
 #contact .fa-chevron-down{color: #ff0000;}
+.carousel-fade .carousel-item{min-height: 500px;}

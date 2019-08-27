@@ -27,7 +27,7 @@
     height: 100%;
 }
 .caps{text-transform: uppercase;}
-.mt80{margin-top: 80px;}
+.mt35{margin-top: 35px;}.mt80{margin-top: 80px;}
 .p20{padding: 20px;}.p40{padding: 40px;}
 .titleText i{font-size: 40px;color: #000;top:-80px;position: relative;cursor: pointer;}
 .bank{
@@ -66,14 +66,13 @@
     font-size: 14px;
     font-weight: normal; 
     white-space: nowrap ;
-    display: block;
     text-transform: none;
     font-family: monospace;
 }
 #teamCarousel .carousel-indicators{top:100%;}
 .gravityContent{font-family: "eraslightitc";padding: 0 140px;font-size: 16px;font-weight: bold;}
 .memberContainer .imgContainer {
-    width: 100px;
+    width: 300px;
     display: inline-block;
     text-align: center;
     margin: 0 20px;
@@ -147,7 +146,7 @@
     text-align: left;
     margin-bottom: 20px;
 }
-#contact{    padding: 40px 100px;min-height: 700px;}
+#contact{    padding: 40px ;min-height: 700px;}
 #contact .headerContainer{margin-bottom: 40px;}
 .fa-facebook-square:hover{
     color: #3b5998;
@@ -165,3 +164,38 @@
 #team .fa-chevron-down{color: #35ce35;}
 #contact .fa-chevron-down{color: #ff0000;}
 .carousel-fade .carousel-item{min-height: 500px;}
+.triangle{
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    display: inline-block;
+    border: 4px solid #5d5b5b;
+    border-right: 0;
+    border-top: 0px;
+    background: transparent !important;
+}
+.triangleBorder{
+    height: 212px;
+    border-left: 4px solid #5d5b5b;
+    display: inline-block;
+    position: relative;
+    left: -81px;
+    top: 32px;
+}
+.triangleText{
+    position: relative;
+    top: -72px;
+    left: 78px;
+    font-size: 16px;
+}
+.triangle.green{
+    border-bottom: 8px solid #057738;
+}
+.triangle.blue{
+        border-left: 8px solid #1A2D97;
+}
+.triangleBorder.red{
+    border-left: 8px solid;
+    border-image-source: linear-gradient(40deg,#DB0000,#972D1A)!important;
+    border-image-slice: 1;    
+}

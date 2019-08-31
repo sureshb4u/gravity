@@ -33,4 +33,7 @@ var ssSmoothScroll = function() {
 
 };
 ssSmoothScroll();
+$('document').ready(function(){
+   $('.loaderContainer').hide();
+})
         
